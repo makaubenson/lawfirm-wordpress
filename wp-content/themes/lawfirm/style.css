@@ -4,3 +4,7 @@ Author: Benson Makau
 Description: Sample Website Created for sample law firm
 Version: 1.0.0
 */
+body {
+  padding: 0;
+  margin: 0;
+}

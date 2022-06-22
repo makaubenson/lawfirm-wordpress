@@ -17,7 +17,7 @@ function register_nav(){
                 );
 }
 
-if(! function_exists('setup')):
+if(!function_exists('setup')):
     function setup(){
         register_nav();
         add_theme_support('post-thumbnails');
@@ -27,6 +27,7 @@ endif;
 
 function scripts_header(){
     wp_enqueue_style('init',get_stylesheet_uri());
+
 }
 function scripts_footer(){
    // wp_enqueue_scripts('init', get_template_directory_uri().'/js/init.js',array('jquery'));
